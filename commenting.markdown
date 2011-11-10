@@ -178,7 +178,7 @@ Quick, meaningful notes (or tags) to find codeblocks.
 
 ### File Header
 
-Usually after `<DOCTYPE>`.
+Usually after `<!DOCTYPE>`.
 
     <!-- ======================================= FILE DETAILS ==
 
@@ -209,11 +209,31 @@ Usually after `<DOCTYPE>`.
 
             Put a website here or something.
 
+    ======================================================= -->
+
+### Alt Long Section Header
+
+    <!-- == CONTENT ======================================= 
+
+            CONTENT UI
+
+            Put a website here or something.
+
     == -->
+
+### Begin Dev Section
+
+I read @class and @id as doubles for beginnings of sections. Endings are harding to find.
 
 ### End Dev Section
 
     <!-- End #elem.class.class -->
+
+### Note
+
+For finding codeblocks; tagging. Search for `// #`.
+
+    <!-- // #fix -->
 
 ### Dev Blank Page
 
