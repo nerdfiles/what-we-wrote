@@ -66,11 +66,11 @@ Helpful for tracing in templates. Wrap in function using general language to tog
 
 ## JavaScript
 
-@see JsDoc
+@see JsDoc Toolkit (http://code.google.com/p/jsdoc-toolkit/w/list)
 
 ## CSS
 
-@see cssdoc0.2.22.
+@see cssdoc0.2.22 (http://cssdoc.net/wiki/CssdocDraft)
 
 ### Disclaimer
 
