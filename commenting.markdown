@@ -223,7 +223,7 @@ Usually after `<!DOCTYPE>`.
 
 ### Begin Dev Section
 
-I read @class and @id as doubles for beginnings of sections. Endings are harding to find.
+I read `@class` and `@id` as doubles for beginnings of sections. The closings are harding to find.
 
 ### End Dev Section
 
