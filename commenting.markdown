@@ -132,21 +132,46 @@ Not sure if the following syntactic constructions are consistent w/ or amenable 
 
     // == SECTION ====================================== 
 
-### SASS/SCSS Endings
+### Endings
 
 Optional SASS/SCSS endings. In case you nest like a son-of-a-bitch. 
 
-#### Blank
+#### Section, Blank
 
     /* ====================================== */
+    
+    
 
-#### Section Ending
+### Section, Short & Sweet
+
+    /* == */
+    
+    
+
+### Section, Alt SASS/SCSS Short & Sweet
+
+    // == 
+    
+    
+
+#### Section
 
     /* == End body._template ====================================== */
+    
+    
 
-#### SASS/SCSS Section Ending
+#### Section, Alt SASS/SCSS
 
     // == End .container.[widget1|widget2].ul.li ====================================== 
+    
+    
+### Notes
+
+#### Alt SASS/SCSS
+
+Quick, meaningful notes to find codeblocks.
+
+    // @compassed
 
 ## HTML
 
