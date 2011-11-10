@@ -237,7 +237,7 @@ For finding codeblocks; tagging. Search for `// #...`.
 
 ### Dev Blank Page
 
-Usually just before `</body>` and just after `<body>`.
+Usually just before `</body>` and just after `<body>`; consider just after `<!DOCTYPE>` as well.
 
     <!--
 
