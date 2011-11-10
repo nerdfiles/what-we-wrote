@@ -178,6 +178,8 @@ Quick, meaningful notes (or tags) to find codeblocks.
 
 ### File Header
 
+Usually after `<DOCTYPE>`.
+
     <!-- ======================================= FILE DETAILS ==
 
     /**
@@ -214,6 +216,8 @@ Quick, meaningful notes (or tags) to find codeblocks.
     <!-- End #elem.class.class -->
 
 ### Dev Blank Page
+
+Usually just before `</body>` and just after `<body>`.
 
     <!--
 
