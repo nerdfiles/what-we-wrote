@@ -10,11 +10,13 @@
     #
     # =================================================== #
 
-## Django
+## Templating
 
-### Include Headers
+### Include Filepaths
 
-    <!-- @src header-base.html -->
+Helpful for tracing in templates. Wrap in function using general language to toggle visibility, say through `DEBUG_MODE`, etc.
+
+    <!-- == @src ./themes/themename/header-base.html == -->
 
 ## JavaScript
 
