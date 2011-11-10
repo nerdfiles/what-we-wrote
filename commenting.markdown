@@ -15,7 +15,7 @@
       @contributor      handle (handle@domain.com)
       @contributor      handle (handle@domain.com)
       @datetime         11.4.2011.11.56.a
-      @devlogin         admin/pennebaker
+      @devlogin         admin/password
     """
 
 ### Alt File Header
