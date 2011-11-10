@@ -231,7 +231,7 @@ I read @class and @id as doubles for beginnings of sections. Endings are harding
 
 ### Note
 
-For finding codeblocks; tagging. Search for `// #`.
+For finding codeblocks; tagging. Search for `// #...`.
 
     <!-- // #fix -->
 
