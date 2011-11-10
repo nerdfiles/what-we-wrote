@@ -26,7 +26,7 @@
 
 ### Disclaimer
 
-Not sure if the following is consistent with cssdoc. Consider them proposals.
+Not sure if the following syntactic constructions are consistent w/ or amenable to cssdoc. Consider them proposals.
 
 ### File Header
 
@@ -55,6 +55,18 @@ Not sure if the following is consistent with cssdoc. Consider them proposals.
 ### Long Section Header
 
     /* ==
+     *
+     * SECTION
+     *
+     * ...
+     * 
+     * @version
+     *  
+     * ====================================== */
+
+### Alt Long Section Header
+
+    /* ==
 
       SECTION
 
@@ -68,11 +80,25 @@ Not sure if the following is consistent with cssdoc. Consider them proposals.
 
     /* == SECTION ====================================== */
 
+### SASS/SCSS Section Header
+
+    // == SECTION ====================================== 
+
 ### SASS/SCSS Endings
 
 Optional SASS/SCSS endings. In case you nest like a son-of-a-bitch. 
 
+#### Blank
+
     /* ====================================== */
+
+#### Section Ending
+
+    /* == End body._template ====================================== */
+
+#### SASS/SCSS Section Ending
+
+    // == End .container.[widget1|widget2].ul.li ====================================== 
 
 ## HTML
 
