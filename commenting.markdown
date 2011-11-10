@@ -2,13 +2,35 @@
 
 ## Python
 
+### File Headers
+
     # -*- coding: utf-8 -*-
     #
-    # file.py
-    #
-    # ...
-    #
-    # =================================================== #
+    # ======================================= filename.py == #
+
+    """
+      @project          unitech
+      @contributor      Aaron Alexander (nerdfiles@gmail.com)
+      @contributor      Will Dawson (will@pennebaker.com)
+      @datetime         11.4.2011.11.56.a
+      @devlogin         admin/pennebaker
+    """
+
+### Long Section Header
+
+    # == CLASS ======================================= #
+    
+    """
+      @author       spinoza
+    """
+
+### Short Section Header
+
+    # == IMPORTS ======================================= #
+
+### Subsection Header
+
+    # == pythonpath inserts == #
 
 ## Templating
 
