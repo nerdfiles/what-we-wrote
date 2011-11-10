@@ -2,35 +2,59 @@
 
 ## Python
 
-### File Headers
+### File Header
 
     # -*- coding: utf-8 -*-
     #
     # ======================================= filename.py == #
 
     """
-      @project          unitech
-      @contributor      Aaron Alexander (nerdfiles@gmail.com)
-      @contributor      Will Dawson (will@pennebaker.com)
+      ...
+
+      @project          projectname
+      @contributor      handle (handle@domain.com)
+      @contributor      handle (handle@domain.com)
       @datetime         11.4.2011.11.56.a
       @devlogin         admin/pennebaker
     """
 
-### Long Section Header
+### Alt File Header
+
+    # -*- coding: utf-8 -*-
+    #
+    # mode_indexes.py
+    #
+    # ...
+    #
+    # @project          projectname
+    #
+    # =================================================== #
+
+### Long Section Header with Documentation
 
     # == CLASS ======================================= #
     
     """
-      @author       spinoza
+      @author           spinoza
     """
 
-### Short Section Header
+### Long Section Header
 
     # == IMPORTS ======================================= #
 
 ### Subsection Header
 
     # == pythonpath inserts == #
+
+### Django
+
+#### Large Comment
+
+    {#
+
+      This is a large comment.
+
+    #}
 
 ## Templating
 
@@ -72,7 +96,7 @@ Not sure if the following syntactic constructions are consistent w/ or amenable 
 
       ...
 
-      @version          
+      @version          0.0.1
 
     == */
 
@@ -84,7 +108,7 @@ Not sure if the following syntactic constructions are consistent w/ or amenable 
      *
      * ...
      * 
-     * @version
+     * @version         0.0.1
      *  
      * ====================================== */
 
@@ -96,7 +120,7 @@ Not sure if the following syntactic constructions are consistent w/ or amenable 
 
       ...
 
-      @version  
+      @version          0.0.1
 
     ====================================== */
 
