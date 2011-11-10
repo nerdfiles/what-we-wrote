@@ -40,6 +40,18 @@ Not sure if the following is consistent with cssdoc. Consider them proposals.
      * 
      * == */
 
+### Alt File Header
+
+    /* ====================================== filename.css ==
+
+      Main Stylesheet ''
+
+      ...
+
+      @version          
+
+    == */
+
 ### Long Section Header
 
     /* ==
