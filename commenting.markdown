@@ -169,9 +169,9 @@ Optional SASS/SCSS endings. In case you nest like a son-of-a-bitch.
 
 #### Alt SASS/SCSS
 
-Quick, meaningful notes to find codeblocks.
+Quick, meaningful notes (or tags) to find codeblocks.
 
-    // @compassed
+    // #ie-bug
 
 ## HTML
 
