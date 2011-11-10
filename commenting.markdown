@@ -26,7 +26,19 @@
 
 ### Disclaimer
 
-Not sure if the following is consistent with cssdoc.
+Not sure if the following is consistent with cssdoc. Consider them proposals.
+
+### File Header
+
+    /* ====================================== filename.scss ==
+     *
+     * Main Stylesheet for domain.com
+     *
+     * ...
+     *
+     * @package         core
+     * 
+     * == */
 
 ### Long Section Header
 
@@ -44,7 +56,7 @@ Not sure if the following is consistent with cssdoc.
 
     /* == SECTION ====================================== */
 
-### SASS Endings
+### SASS/SCSS Endings
 
 Optional SASS/SCSS endings. In case you nest like a son-of-a-bitch. 
 
@@ -69,7 +81,7 @@ Optional SASS/SCSS endings. In case you nest like a son-of-a-bitch.
      * @project         project-name
      */
 
-    -->
+    == -->
 
 ### Short Section Header 
 
