@@ -55,12 +55,32 @@
 
 <!-- head::resposes -->
 
-<!-- head::device-logic -->
+<!-- head::device-logic 
+  
+  A styling system order schema. Ultimately we will see a fragmentation of our
+  layer, into internally standardized "phases" of that layer; perhaps call them 
+  "microlayers," which correspond to devices, which can be isolated by resolution
+  standards. e.g. Early smartphones MUST receive minimal, which may contain at least 
+  reset.css or normalize.css, depending on the constraints of the project, or "up to" 
+  the third "phase," often containing grid.css
+
+  ⇷: colors,mixins,minimal,layout,base/*,...  ("base/*" decision imply a community heavily dependent 
+                                              on high quality Internet connection services being widely available.)
+  ⇸: hacks,pages,modules/*                    ("hacks" usually are not necessary for mobile since designs assume 
+                                              simplicity, to a certain extent, and this often determined at ⇷)
+  ⇹: ...
+  ⇺: ...
+  ⇻: ...
+  ⇼: animation                                (Perhaps reaching this phase means the ordering assumes "maximal
+                                              performance" deserves "maximal complexity"; most sites "max out"
+                                              at the point when interaction involves animation.)
+
+-->
 
 <!-- head::presentation -->
 <link 
   rel="stylesheet" 
-  charset="utf-8" href="" />
+  charset="utf-8" href="presentation.css" />
 <link 
   rel="shortcut icon" 
   href="/favicon.ico" />
@@ -112,7 +132,13 @@
   <div class="site-access">
     <ul>
     	<li>
-    		<a href="#main"></a>
+    		<a href="#main">Skip to Content</a>
+      </li><!-- #isking,first -->
+    	<li>
+    		<a href="#admin">Skip to Admin</a>
+    	</li><!-- #loggedin -->
+    	<li>
+    		<a href="#nav">Skip to navigation</a>
     	</li>
     	<li>
     		<a href=""></a>
@@ -120,13 +146,27 @@
     	<li>
     		<a href=""></a>
     	</li>
-    	<li>
-    		<a href=""></a>
-    	</li>
-    	<li>
-    		<a href=""></a>
-    	</li>
-    </ul>
+    </ul><!-- #access -->
+    
+    <!-- #note
+    
+      @see http://javascriptisawesome.blogspot.com/2011/07/comments-are-diamonds.html 
+      
+      Use HTML comments as a communicative-operational tagging "house" nomenclature between 
+      front-end developers and back-end developers, should these roles be distributed 
+      across a differentiated range of Back-end agents (à la "Web agent," "user agent,"
+      etc.; as opposed to Front-end agents; consider that engagement roles could theoretically
+      be automated, hence: automated markup languages, botnets, text-to-speech phonological-
+      interaction language modeling, spiders, etc.; eventually, automated UI, design, process 
+      art, etc.). That is to say, the aforementioned trick may serve useful as a rack, or piece
+      of middleware, or something that takes fully developed tags from a repository comments and 
+      maps them to tags found in the minified HTML, which should map to whatever ultimately makes 
+      it to production. If tags are not found in production or in minified HTML, screened by 
+      middleware _beforehand_, then this may expose oversight within development processes.
+      
+      @nerdfiles, 2012-12-28 19:15:37
+    -->
+
   </div>
 
   <header class="site-header">
